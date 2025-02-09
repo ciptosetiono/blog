@@ -28,11 +28,26 @@ body {
 .map-container {
     position: relative;
     overflow: hidden;
-    border-radius: 10px;
+    border-radius: 8px;
     box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+    min-height: 450px;
 }
 
 .map-container iframe {
     width: 100%;
-    height: 450px;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+/* Contact Section Styles */
+.contact-info {
+    height: 100%;
+    min-height: 450px;
+}
+
+.contact-icon {
+    color: #c49b63;
+    width: 40px;
 } 
