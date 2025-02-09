@@ -1,0 +1,26 @@
+.hero {
+    height: 100vh;
+    background: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url('cafe-bg.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+.card-img-top {
+    height: 200px;
+    object-fit: cover;
+}
+
+.btn-primary {
+    background-color: #c49b63;
+    border-color: #c49b63;
+}
+
+.btn-primary:hover {
+    background-color: #b38a52;
+    border-color: #b38a52;
+}
+
+/* Untuk memberikan padding-top agar konten tidak tertutup navbar */
+body {
+    padding-top: 76px;
+} 
